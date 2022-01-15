@@ -105,8 +105,8 @@ Série nova variação semanal
 |internacoes_7d_l| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 nos 7 dias anteriores|
 |internacoes_7v7| Variação no número de novas internações ((internacoes_7d - internacoes_7d_l) / internacoes_7d_l)|
 |pacientes_uti_ultimo_dia| Pacientes Internados em Leitos de UTI Destinados para COVID-19 no último dia|
-|total_covid_uti_ultimos_dia| Total de Leitos de UTI Destinados para COVID-19 no último dia|
-|ocupacao_leitos_ultimos_dia| Ocupação de leitos de UTI destinados para COVID-19 no último dia (pacientes_uti / total_covid_uti)|
+|total_covid_uti_ultimo_dia| Total de Leitos de UTI Destinados para COVID-19 no último dia|
+|ocupacao_leitos_ultimo_dia| Ocupação de leitos de UTI destinados para COVID-19 no último dia (pacientes_uti / total_covid_uti)|
 |internacoes_ultimo_dia| Número de novas internações (UTI e Enfermaria) de pacientes confirmados ou com suspeita de COVID-19 no último dia|
 |pacientes_enf_mm7d| Média móvel para 7 dias do Pacientes Internados em Leitos de Enfermaria Destinados para COVID-19 no dia|
 |total_covid_enf_mm7d| Média móvel para 7 dias do Total de Leitos de Enfermaria Destinados para COVID-19 no dia|

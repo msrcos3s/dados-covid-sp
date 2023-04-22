@@ -4,6 +4,25 @@
 
 O SEADE mantém um painel de dados sobre casos e óbitos relacionados ao coronavírus no Estado de São Paulo a partir de dados oficiais da Secretaria de Estado da Saúde de São Paulo (SES). Os dados estão disponíveis em https://www.seade.gov.br/coronavirus/.
 
+#### [27.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 25 a 27 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+
+### NOTA 10.03.2023
+
+A partir de 11 de março de 2023 os conjuntos de dados não serão atualizados nos finais de semana e feriados. Os dados não publicados serão incluídos no dia útil subsequente.
+
+### NOTA 01.03.2023
+
+A partir de 01.03.23, as atualizações bancos de dados completos de [casos e óbitos por municípios e data](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip); [casos, óbitos e doenças pré-existentes](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip); [casos, óbitos por raça/cor e município](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip) também serão divulgados no Repositório do SEADE.
+
+**A partir de 08.03.23, as atualizações dos arquivos anteriormente referidos não serão mais disponibilizados via GitHub, e serão disponibilizados somente via Repositório do SEADE**.
+
+A partir de 01.03.23, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `casos_pc`, `obitos_pc`, `nome_drs`, `cod_drs`.
+
+As colunas excluídas continuarão a ser publicadas no arquivo informado acima: [AQUI link para arquivo no Repositório do SEADE](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip).
+
 ### Casos e óbitos 
 
 Casos e óbitos por municípios e data: **Download dos dados de casos e óbitos**: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv).
@@ -26,11 +45,11 @@ Dicionário dos dados de hospitalizados por SRAG [AQUI](https://github.com/seade
 
 ### Casos, óbitos e doenças pré-existentes
 
-Casos e óbitos por doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_doencas_preexistentes.csv.zip).
+Casos e óbitos por doenças pré-existentes, sexo e idade. Fonte: SIVEP-Gripe. **Download dos dados de casos, óbitos e doenças pré-existentes**: [FORMATO .zip](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip).
 
 ### Casos, óbitos por raça/cor e município.
 
-Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. **Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/casos_obitos_raca_cor.csv.zip).
+Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. **Download dos dados casos, óbitos por raça/cor e município**: [FORMATO .zip](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip).
 
 ## Dicionário de variáveis, fontes primárias e demais informações técnicas
 
@@ -43,15 +62,11 @@ Casos e óbitos por doenças pré-existentes e município. Fonte: SIVEP-Gripe. *
 |datahora| Data no formato YYYY-MM-DD|
 |casos| Casos totais registrados até a data|
 |casos_novos| Casos novos registrados na data|
-|casos_pc| Casos totais por 100 mil habitantes|
 |casos_mm7d| Média móvel dos últimos 7 dias dos novos casos|
 |obitos| Óbitos totais registrados até a data|
 |obitos_novos| Óbitos novos registrados na data|
-|obitos_pc| Óbitos totais por 100 mil habitantes|
 |obitos_mm7d| Média móvel dos últimos 7 dias dos novos óbitos|
 |letalidade| casos / obitos|
-|nome_drs| Nome do Dpto. Regional de Saúde|
-|cod_drs| Código do Dpto. Regional de Saúde|
 |pop| População Estimada (fonte: SEADE)|
 |semana_epidem| Semana Epidemológica|
 
@@ -471,6 +486,112 @@ Não houve atualização das informações de casos e óbitos no dia 29 de Outub
 A partir de 30.10.2022, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem a seguinte variável: `letalidade`.
 
 As colunas excluídas continuarão a ser publicadas em um arquivo compactado disponível no link: [AQUI](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv.zip).
+
+#### [09.12.22]
+
+Não houve atualização das informações de casos e óbitos no dia 09 de Dezembro de 2022 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [10.12.22]
+
+Não houve atualização das informações de casos e óbitos no dia 10 de Dezembro de 2022 em virtude de problemas nos sistemas de dados da Covid-19. As informações de casos e óbitos referentes ao dia 09 de Dezembro de 2022 foram atualizadas.
+
+#### [01.01.23]
+
+Não houve atualização das informações no dia 01 de Janeiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [10.01.23]
+
+Não houve atualização das informações de óbitos no dia 10 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [11.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 e 11 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [12.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 12 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [13.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 13 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [14.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 14 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [15.01.23]
+
+Não houve atualização informações de casos e óbitos em 15 de Janeiro de 2023, e de óbitos entre 10 e 14 de Janeiro de 2023, em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [16.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 16 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [17.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 17 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [18.01.23]
+
+Não houve atualização das informações de óbitos nos dias 10 a 18 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [21.01.23]
+
+Não houve atualização das informações de casos e óbitos no dia 21 de Janeiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [22.01.23]
+
+Não houve atualização das informações de casos e óbitos nos dias 21 e 22 de Janeiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [23.01.23]
+
+Não houve atualização das informações de óbitos nos dias 21 a 23 de Janeiro de 2023 em virtude de problemas no sistema federal de notificação de dados da Covid-19.
+
+#### [28.01.23]
+
+Não houve atualização das informações de casos e óbitos no dia 28 de Janeiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [18.02.23]
+
+Não houve atualização das informações de casos e óbitos no dia 18 de Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [19.02.23]
+
+Não houve atualização das informações de casos e óbitos no dia 19 Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19. As informações de casos e óbitos referentes ao dia 18 de Fevereiro de 2023 foram atualizadas.
+
+#### [20.02.23]
+
+Não houve atualização das informações de casos e óbitos no dia 20 Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19. As informações de casos e óbitos referentes ao dia 19 de Fevereiro de 2023 foram atualizadas.
+
+#### [21.02.23]
+
+Não houve atualização das informações de casos e óbitos nos dias 20 e 21 de Fevereiro de 2023 em virtude de problemas nos sistemas de dados da Covid-19. 
+
+#### [01.03.23]
+
+A partir de 01.03.23, as atualizações bancos de dados completos de [casos e óbitos por municípios e data](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip); [casos, óbitos e doenças pré-existentes](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/5ba14ec6-dd19-4568-9625-b074c0a9c87e/download/casos_obitos_doencas_preexistentes.csv.zip); [casos, óbitos por raça/cor e município](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/a730d5c1-7899-4455-8649-68e7e8cc1753/download/casos_obitos_raca_cor.csv.zip) também serão divulgados no Repositório do SEADE.
+
+**A partir de 08.03.23, as atualizações dos arquivos anteriormente referidos não serão mais disponibilizados via GitHub, e serão disponibilizados somente via Repositório do SEADE**.
+
+A partir de 01.03.23, o [arquivo de casos e óbitos](https://raw.githubusercontent.com/seade-R/dados-covid-sp/master/data/dados_covid_sp.csv) passa a ser publicado sem as seguintes variáveis: `casos_pc`, `obitos_pc`, `nome_drs`, `cod_drs`.
+
+As colunas excluídas continuarão a ser publicadas no arquivo informado acima: [AQUI link para arquivo no Repositório do SEADE](https://repositorio.seade.gov.br/dataset/b4bd5b75-0c6c-44d9-8fc4-9c5d9a480647/resource/d2bad7a1-6c38-4dda-b409-656bff3fa56a/download/dados_covid_sp.csv.zip).
+
+#### [06.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 06 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [10.03.23]
+
+A partir de 11 de março de 2023 os conjuntos de dados não serão atualizados nos finais de semana e feriados. Os dados não publicados serão incluídos no dia útil subsequente.
+
+#### [15.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 15 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
+
+#### [27.03.23]
+
+Não houve atualização das informações de casos e óbitos no dia 25 a 27 de Março de 2023 em virtude de problemas nos sistemas de dados da Covid-19.
 
 
 ## Informações adicionais
